@@ -1,0 +1,172 @@
+@font-face {
+    font-family: "Material Design Icons";
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url("./materialdesignicons.ttf") format("truetype")
+}
+
+.treeview .item:before {
+    background-image: url("./img/file.png");
+}
+
+.treeview .dir > .header:before {
+    width: 38px;
+    height: 20px;
+    margin: 2px;
+    background: none;
+    font-family: "Material Design Icons";
+    font-size: 18px;
+    content: "\f142\f24b";
+}
+
+.treeview .dir.open > .header:before {
+	content: "\f140\f24b";
+}
+
+.treeview .item:before {
+    top: 0;
+	margin: 2px 4px 2px 2px;
+	width: 20px;
+	height: 20px;
+}
+
+.treeview .dir > .header:before
+{
+    top: 0;
+}
+
+/* Sprites */
+.treeview > .dir > .header[title="Sprites"]:before {
+    content: "\f142\f2e9";
+}
+
+.treeview > .dir.open > .header[title="Sprites"]:before {
+	content: "\f140\f2e9";
+}
+
+/* Tilesets */
+.treeview > .dir > .header[title="Tilesets"]:before {
+    content: "\f142\f2c1";
+}
+
+.treeview > .dir.open > .header[title="Tilesets"]:before {
+	content: "\f140\f2c1";
+}
+
+/* Sounds */
+.treeview > .dir > .header[title="Sounds"]:before {
+    content: "\f142\f759";/* f57e */
+}
+
+.treeview > .dir.open > .header[title="Sounds"]:before {
+	content: "\f140\f759";
+}
+
+/* Paths */
+.treeview > .dir > .header[title="Paths"]:before {
+    content: "\f142\f561";
+}
+
+.treeview > .dir.open > .header[title="Paths"]:before {
+	content: "\f140\f561";
+}
+
+/* Scripts */
+.treeview > .dir > .header[title="Scripts"]:before {
+    content: "\f142\f22e";/* f174 f478 */
+}
+
+.treeview > .dir.open > .header[title="Scripts"]:before {
+	content: "\f140\f22e";
+}
+
+/* Shaders */
+.treeview > .dir > .header[title="Shaders"]:before {
+    content: "\f142\f328";
+}
+
+.treeview > .dir.open > .header[title="Shaders"]:before {
+	content: "\f140\f328";
+}
+
+/* Fonts */
+.treeview > .dir > .header[title="Fonts"]:before {
+    content: "\f142\f6d5";
+}
+
+.treeview > .dir.open > .header[title="Fonts"]:before {
+	content: "\f140\f6d5";
+}
+
+/* Timelines */
+.treeview > .dir > .header[title="Timelines"]:before {
+    content: "\f142\f51f";
+}
+
+.treeview > .dir.open > .header[title="Timelines"]:before {
+	content: "\f140\f51f";
+}
+
+/* Objects */
+.treeview > .dir > .header[title="Objects"]:before {
+    content: "\f142\f1a7";
+}
+
+.treeview > .dir.open > .header[title="Objects"]:before {
+	content: "\f140\f1a7";
+}
+
+/* Rooms */
+.treeview > .dir > .header[title="Rooms"]:before {
+    content: "\f142\f489";/* f19f */
+}
+
+.treeview > .dir.open > .header[title="Rooms"]:before {
+	content: "\f140\f489";
+}
+
+/* Notes */
+.treeview > .dir > .header[title="Notes"]:before {
+    content: "\f142\f82d";
+}
+
+.treeview > .dir.open > .header[title="Notes"]:before {
+	content: "\f140\f82d";
+}
+
+/* Included Files */
+.treeview > .dir > .header[title="Included Files"]:before {
+    content: "\f142\f416";/* f751 */
+}
+
+.treeview > .dir.open > .header[title="Included Files"]:before {
+	content: "\f140\f416";
+}
+
+/* Extensions */
+.treeview > .dir > .header[title="Extensions"]:before {
+    content: "\f142\f431";
+}
+
+.treeview > .dir.open > .header[title="Extensions"]:before {
+	content: "\f140\f431";
+}
+
+/* Options */
+.treeview > .dir > .header[title="Options"]:before {
+    content: "\f142\f493";
+}
+
+.treeview > .dir.open > .header[title="Options"]:before {
+	content: "\f140\f493";
+}
+
+/* Configs */
+.treeview > .dir > .header[title="Configs"]:before {
+    content: "\f142\f62e";
+}
+
+.treeview > .dir.open > .header[title="Configs"]:before {
+	content: "\f140\f62e";
+}

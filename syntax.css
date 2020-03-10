@@ -1,0 +1,81 @@
+#app .ace-tm .ace_keyword,
+#app .ace-tm .ace_type,
+#app .ace-tm .ace_curly.ace_paren,
+#app .ace-tm .ace_quasi.ace_paren {
+	font-weight: normal;
+}
+#app .ace-tm { color: #74747F; } /*  && () . : !=  */
+#app .ace-tm .ace_local { color: #A5A5A5; } /* Local variables that have been initialized with var */
+#app .ace-tm .ace_sublocal { color: #A5A5A5; } /*  */
+#app .ace-tm .ace_field { color: #E2E5E3; } /* Variable owned by other */
+#app .ace-tm .ace_localfield { color: #E2E5E3; } /* Variable owned by self */
+#app .ace-tm .ace_globalfield { color: #E2E5E3; } /* Variable that is global */
+#app .ace-tm .ace_keyword { color: #74747F; } /* Switch Case Break Return If Else Until */
+#app .ace-tm .ace_macro { color: #E577B5; } /* Macro used in code */
+#app .ace-tm .ace_macroname { color: #E577B5; }  /* Macro Name in "All Configurations" */
+#app .ace-tm .ace_preproc { color: #74747F; } /* #define, #event, #macro */
+#app .ace-tm .ace_curly.ace_paren { color: #E2E5E3; } /* Braces {  } */
+#app .ace-tm .ace_constant { color: #E5C489; } /* GM built-in values: c_black, true, false, bm_subtract */
+#app .ace-tm .ace_numeric { color: #E575B4; } /* Basic numbers */
+#app .ace-tm .ace_string { color: #F09A7C; } /* String text */
+#app .ace-tm .ace_momenttime { color: #F09A7C; } /* Timelines */
+#app .ace-tm .ace_comment { color: #8AB27C; } /* Comments */
+#app .ace-tm .ace_eventtext { color: #8AB27C; } /* Renamed Object Actions */
+#app .ace-tm .ace_extmacro { color: #E577B5; } /*  */
+#app .ace-tm .ace_enum { color: #A2D0C5; } /* Enum Variable */
+#app .ace-tm .ace_enumfield { color: #E2E5E3; } /* Enum Constant */
+#app .ace-tm .ace_variable { color: #E2E5E3; } /* Built-in GM variable */
+#app .ace-tm .ace_globalvar { color: red; } /*  */
+#app .ace-tm .ace_function { color: #7dbeff; } /* Basic GM Function */
+#app .ace-tm .ace_extfunction { color: #7dbeff; } /*  */
+#app .ace-tm .ace_asset.ace_script { color: #7dbeff; } /* Scripts */
+#app .ace-tm .ace_asset { color: #F09A7C; } /* Objects, sprites */
+#app .ace-tm .ace_namespace { color: #8AB27C; } /*  */
+#app .ace-tm .ace_type { color: red; } /*  */
+#app .ace-tm .ace_active-line { background-color: #32363f; } /* Current line's background */
+#app .ace-tm .ace_selection,
+#app .ace-tm .ace_selected-word { background-color: #424654; } /* Selection block background (hold-click and shift selection) */
+#app .ace-tm .ace_gutter-active-line { color: #E2E5E3; background-color: #32363f } /* Current line's gutter background */
+#app .ace-tm .ace_error { color: #ff2020; }
+/* #app .ace_gutter-define {color: #E2E5E3;} # in gutter */
+#app .ace_gutter,
+#app .ace_status-bar {
+	color: #74747F;
+}
+#app .ace-tm .ace_regionname,
+#app .ace-tm .ace_sectionname,
+#app .ace-tm .ace_momentname,
+#app .ace-tm .ace_scriptname,
+#app .ace-tm .ace_eventkeyname,
+#app .ace-tm .ace_eventname {
+	color: #E575B4;
+}
+#app .ace-tm .ace_comment.ace_meta {
+	color: #E5C489;
+}
+#app .ace-tm .ace_line:not(:first-child) .ace_preproc.ace_define::after,
+#app .ace-tm .ace_line:not(:first-child) .ace_preproc.ace_section::after,
+#app .ace-tm .ace_line:not(:first-child) .ace_preproc.ace_event::after {
+	background: none;
+    /* height: 2px; */
+}
+#app .ace_gutter-define:not(:first-child) {
+	box-shadow: none;
+}
+#app .ace_gutter-define {
+	background-color: #32363f;
+    color: #E2E5E3;
+}
+.ace_editor.ace_autocomplete .ace_completion-highlight {
+    color: #E2E5E3;
+}
+.ace_line span {
+	color: #8f99a2;
+}
+
+/* #app .ace-tm .ace_event,
+#app .ace-tm .ace_eventkeyname,
+#app .ace-tm .ace_eventname {
+	background-color: #21252b;
+	border: 1px #21252b solid;
+} */
