@@ -1,0 +1,4 @@
+{
+	"parentTheme": "dark",
+	"stylesheets": ["onedark.css", "syntax.css", "tree-icons.css", "outline-view.css"]
+}

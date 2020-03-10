@@ -1,0 +1,51 @@
+#outline-view .outline-item > .header:not([data-ident]):before {
+    background: url("./img/icons.png") no-repeat !important;
+}
+
+#outline-view .outline-item[outline-ctx] > .header:before {
+	background-position: -20px 0px !important;
+}
+
+#outline-view .outline-item[outline-data="gml_properties"] > .header:before {
+	background-position: -100px 0px !important;
+}
+
+#outline-view .outline-item[outline-data="gml_create"] > .header:before {
+	background-position: -40px 0px !important;
+}
+
+#outline-view .outline-item[outline-data="gml_destroy"] > .header:before {
+	background-position: -60px 0px !important;
+}
+
+#outline-view .outline-item[outline-data="gml_cleanup"] > .header:before {
+	background-position: -80px 0px !important;
+}
+
+#outline-view .outline-item[outline-data^="gml_alarm"] > .header:before {
+	background-position: 0px -20px !important;
+}
+
+#outline-view .outline-item[outline-data="gml_step"] > .header:before {
+	background-position: -20px -20px !important;
+}
+
+#outline-view .outline-item[outline-data="gml_step_begin"] > .header:before {
+	background-position: -40px -20px !important;
+}
+
+#outline-view .outline-item[outline-data="gml_step_end"] > .header:before {
+	background-position: -60px -20px !important;
+}
+
+#outline-view .outline-item[outline-data^="gml_collision"] > .header:before {
+	background-position: 0px -60px !important;
+}
+
+#outline-view .outline-item[outline-data^="gml_async"] > .header:before {
+	background-position: -20px -60px !important;
+}
+
+#outline-view .outline-item[outline-data^="gml_draw"] > .header:before {
+	background-position: 0px -40px !important;
+}
