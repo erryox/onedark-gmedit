@@ -130,8 +130,7 @@ body {
 }
 
 .system-button {
-    height: 100%;
-    max-height: 32px;
+    height: var(--top-bar-height);
     width: var(--system-button-width);
 }
 
